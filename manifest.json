@@ -1,0 +1,12 @@
+{
+    "name": "Memeology",
+    "description": "A random meme chrome extension that will show a random meme from reddit.",
+    "version": "1.0",
+    "manifest_version": 3,
+    "action": {
+        "default_popup": "index.html"
+    },
+    "icons":{
+        "128" : "memeology small.png"
+    }
+}
