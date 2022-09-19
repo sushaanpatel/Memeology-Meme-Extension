@@ -1,7 +1,7 @@
 {
-    "name": "Memeology",
-    "description": "A random meme chrome extension that will show a random meme from reddit.",
-    "version": "1.0",
+    "name": "Memeology: The Meme extension",
+    "description": "A random meme chrome extension to save you from boredom",
+    "version": "2.0",
     "manifest_version": 3,
     "action": {
         "default_popup": "index.html"
