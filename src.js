@@ -7,7 +7,7 @@ async function getmeme(){
     let r = new XMLHttpRequest();
     title.innerHTML = "Loading Meme..."; 
     image.src = "placeholder.gif";
-    r.open("GET", `https://meme-api.herokuapp.com/gimme/${subs[rand]}`, true);
+    r.open("GET", `https://meme-api.com/gimme/${subs[rand]}`, true);
     r.send();
     r.onload = () => {
         let meme = JSON.parse(r.responseText);
